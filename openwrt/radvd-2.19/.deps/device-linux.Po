@@ -1,0 +1,234 @@
+device-linux.o: device-linux.c \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdc-predef.h \
+ config.h defaults.h includes.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/errno.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/features.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/glibc-types.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/cdefs.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/errno.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/grp.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/alltypes.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/netdb.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/netinet/in.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/inttypes.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdint.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/stdint.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/socket.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/socket.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/pwd.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/signal.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/signal.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdarg.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdio.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdlib.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/alloca.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/string.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/strings.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/syslog.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/time.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/unistd.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/posix.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/types.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/endian.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/select.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/param.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/resource.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/time.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/resource.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/limits.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/limits.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/ioctl.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/ioctl.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/uio.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/fcntl.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/fcntl.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/stat.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/stat.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/netinet/icmp6.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/netinet/ip6.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/arpa/inet.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/libc-compat.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/types.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm/types.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm-generic/int-ll64.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm/bitsperlong.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm-generic/bitsperlong.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/posix_types.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/stddef.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm/posix_types.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm/sgidefs.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm-generic/posix_types.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/socket.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/hdlc/ioctl.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/getopt.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/ifaddrs.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if_arp.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/netdevice.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if_ether.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if_packet.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if_link.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/netlink.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/kernel.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/sysinfo.h \
+ radvd.h log.h \
+ /tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/version.h \
+ netlink.h pathnames.h
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdc-predef.h:
+
+config.h:
+
+defaults.h:
+
+includes.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/errno.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/features.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/glibc-types.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/cdefs.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/errno.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/grp.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/alltypes.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/netdb.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/netinet/in.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/inttypes.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdint.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/stdint.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/socket.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/socket.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/pwd.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/signal.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/signal.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdarg.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdio.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/stdlib.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/alloca.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/string.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/strings.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/syslog.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/time.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/unistd.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/posix.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/types.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/endian.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/select.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/param.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/resource.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/time.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/resource.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/limits.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/limits.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/ioctl.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/ioctl.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/uio.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/fcntl.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/fcntl.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/sys/stat.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/bits/stat.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/netinet/icmp6.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/netinet/ip6.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/arpa/inet.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/libc-compat.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/types.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm/types.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm-generic/int-ll64.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm/bitsperlong.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm-generic/bitsperlong.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/posix_types.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/stddef.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm/posix_types.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm/sgidefs.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/asm-generic/posix_types.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/socket.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/hdlc/ioctl.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/getopt.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/ifaddrs.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if_arp.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/netdevice.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if_ether.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if_packet.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/if_link.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/netlink.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/kernel.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/sysinfo.h:
+
+radvd.h:
+
+log.h:
+
+/tmp/openwrt-sdk-19.07.4-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64/staging_dir/toolchain-mipsel_24kc_gcc-7.5.0_musl/include/linux/version.h:
+
+netlink.h:
+
+pathnames.h:
